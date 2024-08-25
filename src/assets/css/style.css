@@ -1,0 +1,137 @@
+.homeDiv h2 {
+  font-size: 52px;
+}
+
+.homeDiv ul {
+  /* list-style: none; */
+  /* padding: 0; */
+  width: fit-content;
+  margin: auto;
+}
+
+.homeDiv ul li a {
+  color: #838383;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.homeDiv ul li a:hover {
+  color: #494949;
+  text-decoration: underline;
+}
+
+
+/* task 2 */
+.boatTitleDiv {
+  padding: 100px 7%;
+  font-weight: bold;
+}
+
+.parallax-container {
+  position: relative;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.parallax-box {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  transition: transform 0.3s ease;
+  color: #333;
+  position: relative;
+}
+
+.videoBtn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 2;
+  width: 38px;
+  height: 36px;
+  padding: 0;
+  background: #d2d2d7a3;
+  border-radius: 30px;
+  margin: 0;
+  color: #636364 !important;
+  border: none;
+}
+
+.boatTitleDiv h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.boatTitleDiv p {
+  font-size: 28px;
+}
+
+.containPadding {
+  padding: 0 7%;
+}
+
+.sliderTitle {
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.boatSwiper .swiper-wrapper {
+  margin: 0px calc(50vw - min(1680px, 86vw) / 2);
+  margin-bottom: 40px;
+  padding: 10px 0;
+}
+
+.boatSwiper .swiper-button-prev,
+.boatSwiper .swiper-button-next {
+  width: 36px;
+  height: 36px;
+  background: #d2d2d7a3;
+  border-radius: 30px;
+  margin: 0;
+  color: #636364;
+  bottom: 0;
+  right: 7%;
+  top: unset;
+  left: unset;
+}
+
+.boatSwiper .swiper-button-prev {
+  right: calc(7% + 50px);
+}
+
+.boatSwiper .swiper-button-prev::after,
+.boatSwiper .swiper-button-next::after {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sliderDiv {
+  position: relative;
+  transition: transform 0.3s linear;
+  border-radius: 30px;
+}
+
+.sliderDiv:hover {
+  transform: scale(1.02);
+}
+
+.sliderDiv img {
+  border-radius: 30px;
+}
+
+.sliderDiv .sliderTxt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  font-size: 17px;
+  color: white;
+}
+
+.sliderDiv h3 {
+  font-size: 28px;
+}

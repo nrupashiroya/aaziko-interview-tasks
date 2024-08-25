@@ -1,0 +1,100 @@
+.calcTabs {
+  border: none;
+  justify-content: space-evenly;
+  box-shadow: 0px 4px 15px #3a70bf1a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.calcTabs .nav-item {
+  flex: 1;
+}
+
+.calcTabs .nav-link {
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-right: 1px solid #dee2e6;
+  border-radius: 0;
+  text-align: center;
+  color: #8fadc8 !important;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 16px;
+}
+
+.calcTabs .nav-item:last-child .nav-link {
+  border-right: none;
+}
+
+.calcTabs .nav-link.active {
+  border-bottom: 3px solid #08f;
+}
+
+.calcContent {
+  box-shadow: 0px 4px 15px #3a70bf1a;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.productTable th {
+  color: #000000d9;
+  font-weight: 500;
+}
+
+.productTable td {
+  color: #8f8f8f;
+}
+
+.productTable td .contColor {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.contInput {
+  text-align: center;
+  /* box-shadow: 0px 4px 15px #3a70bf1a; */
+  border-radius: 10px;
+  padding: 20px 10px;
+  border: 1px solid #e9e9e9;
+}
+
+.contInput.selected {
+  border: 1px solid #08f;
+}
+
+.contInput input {
+  display: none;
+}
+
+.contDetails ul {
+  list-style: none;
+  padding: 0;
+  color: #8f8f8f;
+  font-size: 14px;
+}
+
+.contTable td {
+  border: none;
+  padding: 1px 10px;
+  font-size: 14px;
+  color: #8f8f8f;
+  vertical-align: middle;
+}
+
+.contTable th {
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000d9;
+}
+
+.contTable td .contColor {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-left: auto;
+}
